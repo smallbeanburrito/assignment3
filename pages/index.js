@@ -1,11 +1,11 @@
 /*********************************************************************************
- *  WEB422 – Assignment 2
+ *  WEB422 – Assignment 3
  *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
  *  No part of this assignment has been copied manually or electronically from any other source
  *  (including web sites) or distributed to other students.
  *
  *  Name: Keith Cao Student ID: 143332211 Date: June 15, 2023
- *  Render Link: https://assignment2-dr3j.onrender.com
+ *  Vercel Link: https://assignment3-chi.vercel.app/
  *
  ********************************************************************************/
 import useSWR from "swr";
