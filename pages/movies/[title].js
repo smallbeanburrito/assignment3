@@ -9,7 +9,7 @@ export default function Movie() {
   const { title } = router.query;
 
   const { data, error } = useSWR(
-    `https://zany-gray-starfish-wrap.cyclic.app/api/movies?page=1&perPage=10&title=${title}`
+    `https://periwinkle-jackrabbit-wrap.cyclic.app/api/movies?page=1&perPage=10&title=${title}`
   );
 
   console.log(data);
