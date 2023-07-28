@@ -16,7 +16,7 @@ import PageHeader from "@/components/PageHeader";
 export function getStaticProps() {
   return new Promise((resolve, reject) => {
     fetch(
-      "https://zany-gray-starfish-wrap.cyclic.app/api/movies/573a1390f29313caabcd42e8"
+      "https://periwinkle-jackrabbit-wrap.cyclic.app/api/movies/573a1390f29313caabcd42e8"
     )
       .then((res) => res.json())
       .then((data) => resolve({ props: { movie: data } }))
