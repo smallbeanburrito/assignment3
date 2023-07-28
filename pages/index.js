@@ -19,7 +19,7 @@ export default function Home() {
   const [pageData, setPageData] = useState([]);
 
   const { data, error } = useSWR(
-    `https://zany-gray-starfish-wrap.cyclic.app/api/movies?page=${page}&perPage=10`
+    `https://periwinkle-jackrabbit-wrap.cyclic.app/api/movies?page=${page}&perPage=10`
   );
 
   useEffect(() => {
